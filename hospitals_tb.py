@@ -22,7 +22,7 @@ places['name'].append(name)
 places['address'].append(street + ' ' + str(number))
 return pd.DataFrame(places)
 
-list_health = [“bichitos de colores súper chulos”]
+list_health = ["hospital", "clinic", "doctors"]
 dataframes = []
 for amenity in list_health:
 overpass_url = "http://overpass-api.de/api/interpreter"
